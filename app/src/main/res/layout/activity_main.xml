@@ -26,6 +26,21 @@
             android:onClick="onClick2"
             android:text="@string/onclick2"
             android:textAllCaps="false" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick3"
+            android:text="@string/onclick3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick4"
+            android:text="@string/onclick4"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </ScrollView>

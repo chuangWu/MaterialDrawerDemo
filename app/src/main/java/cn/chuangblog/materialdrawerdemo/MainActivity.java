@@ -25,5 +25,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick2(View view) {
         Log.e("TAG", "onClick2");
+        Intent intent1 = new Intent(this, NavigationListViewActivity.class);
+        startActivity(intent1);
+    }
+
+    public void onClick3(View view) {
+        Log.e("TAG", "onClick3");
+        Intent intent1 = new Intent(this, ActionBarWithDrawerLayout.class);
+        startActivity(intent1);
+    }
+
+    public void onClick4(View view) {
+        Log.e("TAG", "onClick4");
+        Intent intent1 = new Intent(this, MaterialLibraryActivity.class);
+        startActivity(intent1);
     }
 }

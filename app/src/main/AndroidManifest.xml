@@ -1,23 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.chuangblog.materialdrawerdemo" >
+    package="cn.chuangblog.materialdrawerdemo">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NavigationViewActivity"
-            android:theme="@style/Theme.DesignDemo"/>
+        <activity
+            android:name=".NavigationViewActivity"
+            android:label="NavigationViewActivity"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".NavigationListViewActivity"
+            android:label="NavigationListViewActivity"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".ActionBarWithDrawerLayout"
+            android:label="ActionBarWithDrawerLayout" />
+        <activity android:name=".CheeseDetailActivity"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".MaterialLibraryActivity"
+            android:theme="@style/Theme.DesignDemo" />
     </application>
 
 </manifest>
